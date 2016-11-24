@@ -11,9 +11,9 @@
 
     <title>Портфолио. Абдуллин Алексей</title>
 
-    <!-- бустрап ксс, я не понимаю почему оно тут, но так надо. Мне скасзали, что можно использовать бустрап. Была бы моя воля - я бы сделал все как надо на вордпресе или еще чем-нибудь, но нет, надо жедать из палок и изоленты. -->
+    <!-- бустрап ксс, я не понимаю почему оно тут, но так надо. Мне скасзали, что можно использовать бустрап. Была бы моя воля - я бы сделал все как надо на вордпресе или еще чем-нибудь, но нет, надо   из палок и изоленты. -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/freelancer.css" rel="stylesheet" type="text/css">
+    <link href="css/letmedie.css" rel="stylesheet" type="text/css">
 
     <!-- шрифты -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -253,7 +253,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
                         <div class="modal-body">
                             <h2><?php echo $selectportarray['portfolio_title']; ?></h2>
                             <hr class="star-primary">
-                            <img src="admin/imagesportfolio/<?php echo $selectportarray['portfoilo_image']; ?>" class="img-responsive img-centered" alt="">
+                           
                             <p>
 							<?php echo $selectportarray['portfolio_desc']; ?>
 							</p>
@@ -290,7 +290,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-    <script src="js/freelancer.js"></script>
+    <script src="js/letmedie.js"></script>
 	<script src="admin/vendors/jGrowl/jquery.jgrowl.js"></script>
 
 </body>

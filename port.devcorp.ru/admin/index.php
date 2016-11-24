@@ -48,9 +48,7 @@ setTimeout(function(){
   window.location = 'show_portfolio.php';
 }, 0);
 </script>";	
-
-
-				
+		
 			}
 			
 			else if($password == '' || $username == '' )
@@ -77,16 +75,12 @@ setTimeout(function(){
 setTimeout(function(){
   window.location = "index.php";
 }, 2000);
-	
 				});
 				</script>
 				';
-		
-				
+	
+			}		
 			}
-			
-			}
-		
 }
 ?>
   <body id="login">
@@ -94,8 +88,8 @@ setTimeout(function(){
 
       <form class="form-signin" action="#" method="post">
         <h2 class="form-signin-heading">Вход</h2>
-        <input type="text" class="input-block-level" name="username" placeholder="Email address">
-        <input type="password" class="input-block-level" name="password" placeholder="Password">
+        <input type="text" class="input-block-level" name="username" placeholder="Логин">
+        <input type="password" class="input-block-level" name="password" placeholder="Пароль">
         <label class="forgot-password-link">
           
         </label>

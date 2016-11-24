@@ -12,7 +12,7 @@ $service_name=$detailservice['service_name'];
 echo '
 <div class="modal-header">
 												<button data-dismiss="modal" class="close" type="button">&times;</button>
-												<h3>Edit Service</h3>
+												<h3>Редактировать ветку</h3>
 											</div>
 											<div class="modal-body">
 <form action="#" method="post" id="form1">
@@ -31,7 +31,7 @@ echo '
  
  
                            <div class="form-group" style="margin-bottom:50px;">
-<label class="col-sm-3 control-label no-padding-right" for="form-field-1"><b>Service name</b></label>
+<label class="col-sm-3 control-label no-padding-right" for="form-field-1"><b>Имя</b></label>
 
 										<div class="col-sm-9">
 <input type="text"   value="'.$service_name.'"  name="service1"   class="col-xs-10 col-sm-5" style="width:350px;"  required/>
@@ -48,7 +48,7 @@ echo '
 										<div class="col-md-offset-3 col-md-9">
 <button class="btn btn-primary" style="width:150px;position:relative;left:120px;" type="submit" id="submit1"  name="submit1" onclick="submitForm()">
 												<i class="icon-pencil icon-white"></i>
-												Edit
+												Готово
 											</button>
                                             
                                             

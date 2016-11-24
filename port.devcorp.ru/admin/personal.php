@@ -106,7 +106,7 @@ $oldphoto=$selectpersonal['photo'];
                                           </div>
                                         </div>
                                         <div class="form-actions">
-                                 <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Save changes</button>
+                                 <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Сохранить</button>
                                          
                                         </div>
                                       </fieldset>

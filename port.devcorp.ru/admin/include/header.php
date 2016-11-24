@@ -5,7 +5,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Abdullin AO portfolio v0.1</a>
+                    <a class="brand" href="#">Твоё портфолио, ага</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right">
                             <li class="dropdown">
@@ -16,7 +16,7 @@
                                     
                                     <li class="divider"></li>
                                     <li>
-                                        <a tabindex="-1" href="logout.php">Logout</a>
+                                        <a tabindex="-1" href="logout.php">Выйти</a>
                                     </li>
                                 </ul>
                             </li>

@@ -107,9 +107,9 @@ $("#myModal").html(msg);
 										?>
 											<tr class="odd gradeX">
 												<td>
-							<a href="show_view_portfolio.php?id=<?php echo $selectportfolioarray['portfolio_id']; ?>">
+						
 												<?php echo  $selectportfolioarray['portfolio_id'];  ?>
-												</a>
+											 
 												</td>
 												<td><?php echo $selectportfolioarray['portfolio_title']; ?></td>
 	<td><img src="imagesportfolio/<?php echo $selectportfolioarray['portfoilo_image']; ?>" style="width:50px;"></td>

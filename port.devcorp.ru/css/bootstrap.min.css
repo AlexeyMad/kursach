@@ -308,17 +308,18 @@ img {
   vertical-align: middle;
 }
 
-.img-responsive{
+{
 }
 
 
 
 
 .thumbnail > img,
-.thumbnail a > img,
+.thumbnail a > img,.img-responsive,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+ 
+ display: block;
   max-width: 100%;
   height: auto;
 }

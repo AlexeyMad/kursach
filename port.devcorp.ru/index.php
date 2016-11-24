@@ -53,7 +53,7 @@
                         <a href="#portfolio">Портфолио</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">Об о мне</a>
+                        <a href="#about">Про меня</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Контакты</a>

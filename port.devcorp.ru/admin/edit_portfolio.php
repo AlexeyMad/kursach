@@ -121,7 +121,6 @@ date_default_timezone_set('Africa/Cairo');
             </div>
             <hr>
             <footer>
-                <p>&copy; Vincent Gabriel 2013</p>
             </footer>
         </div>
         <!--/.fluid-container-->

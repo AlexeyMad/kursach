@@ -85,7 +85,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Портфолио</h2>
+                    <h2>Мои работы</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -122,7 +122,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Об о мне</h2>
+                    <h2>Про меня</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -148,7 +148,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Контакты</h2>
+                    <h2>Напишите мне</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -176,7 +176,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
                         <br>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" name="submit" class="btn btn-lg btn-success">Send</button>
+                                <button type="submit" name="submit" class="btn btn-lg btn-success">Отправить</button>
                             </div>
                         </div>
                     </form>
@@ -191,7 +191,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Месторасположение</h3>
+                        <h3>Где меня найти</h3>
                         <?php
 						echo $selectarraypersonal['location'];
 						?>
@@ -202,7 +202,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
 					?>
                         <h3>В социальных сетях</h3>
                         <ul class="list-inline">
-                            <li><a href="<?php echo $sociallinks['facebook']; ?>" class="btn-social btn-outline"><i class="fa fa-vk"></i></a>
+                            <li><a href="<?php echo $sociallinks['vk']; ?>" class="btn-social btn-outline"><i class="fa fa-vk"></i></a>
                             </li>
                     
                         </ul>

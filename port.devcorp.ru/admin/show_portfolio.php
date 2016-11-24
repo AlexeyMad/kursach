@@ -112,7 +112,7 @@ $("#myModal").html(msg);
 												</a>
 												</td>
 												<td><?php echo $selectportfolioarray['portfolio_title']; ?></td>
-	<td><img src="imagesportfolio/<?php echo $selectportfolioarray['portfoilo_image']; ?>" style="width:50px;"></td>
+	
 												<td class="center"><?php echo $selectportfolioarray['client_name']; ?></td>
 												<td class="center">
 			 

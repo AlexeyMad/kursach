@@ -12,7 +12,7 @@ $oldphoto=$selectpersonal['photo'];
 <html>
     
     <head>
-        <title>Personal</title>
+        <title>Личная информация</title>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
@@ -42,13 +42,13 @@ $oldphoto=$selectpersonal['photo'];
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Personal</div>
+                                <div class="muted pull-left">Личная информация</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
                                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                                       <fieldset>
-                                        <legend>Personal</legend>
+                                        <legend>Личная информация</legend>
                                         
                                         
                                         
@@ -57,7 +57,7 @@ $oldphoto=$selectpersonal['photo'];
                                         
                                        
                                         <div class="control-group">
-                                          <label class="control-label" for="textarea2">Name</label>
+                                          <label class="control-label" for="textarea2">Имя</label>
                                           <div class="controls">
       <input type="text" class="span6" name="name" id="typeahead" value="<?php echo $selectpersonal['name']; ?>" required>
 	  
@@ -72,14 +72,14 @@ $oldphoto=$selectpersonal['photo'];
                                           </div>
                                         </div>
 										<div class="control-group">
-                                          <label class="control-label" for="textarea2">Photo</label>
+                                          <label class="control-label" for="textarea2">Фото в шапку</label>
                                           <div class="controls">
 										  
        <input class="input-file uniform_on" id="fileInput" type="file" name="file" >
                                           </div>
                                         </div>
 										<div class="control-group">
-                                          <label class="control-label" for="textarea2">About me</label>
+                                          <label class="control-label" for="textarea2">Про меня</label>
                                           <div class="controls">
 										  
        <textarea name="aboutme" cols="40" rows="5" class="input-xlarge textarea"  placeholder="Enter text ..." style="width: 810px; height: 200px">
@@ -88,7 +88,7 @@ $oldphoto=$selectpersonal['photo'];
                                           </div>
                                         </div>
 										<div class="control-group">
-                                          <label class="control-label" for="textarea2">Location</label>
+                                          <label class="control-label" for="textarea2">Локация</label>
                                           <div class="controls">
 										  
         <textarea name="location" cols="40" rows="5" class="input-xlarge textarea"  placeholder="Enter text ..." style="width: 810px; height: 200px">
@@ -97,7 +97,7 @@ $oldphoto=$selectpersonal['photo'];
                                           </div>
                                         </div>
 										<div class="control-group">
-                                          <label class="control-label" for="textarea2">Job</label>
+                                          <label class="control-label" for="textarea2">Уменя\достижения</label>
                                           <div class="controls">
 										  
         <textarea name="job" cols="40" rows="5" class="input-xlarge textarea"  placeholder="Enter text ..." style="width: 810px; height: 200px">

@@ -8,7 +8,7 @@
 <html>
     
     <head>
-        <title>Portfolio</title>
+        <title>Портфолио</title>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
@@ -73,12 +73,12 @@ $("#myModal").html(msg);
                     
 
                      <div class="row-fluid">
-					 <a href="add_portfolio.php"  class="btn btn-primary">Add Portfolio</a>
+					 <a href="add_portfolio.php"  class="btn btn-primary">Добавить портфолио</a>
 					 
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Portfolio</div>
+                                <div class="muted pull-left">Портфолио</div>
                             </div>
 							
                             <div class="block-content collapse in">
@@ -86,12 +86,12 @@ $("#myModal").html(msg);
   		<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="example" >
 										<thead>
 											<tr>
-											<td>Id</td>
-												<td>Title</td>
+											<td>Ид</td>
+												<td>Имя</td>
 												
-												<td>Image</td>
-												<td>Client name</td>
-												<td>Actions</td>
+												<td>Картинка</td>
+												<td>Клиент</td>
+												<td>Действия</td>
 											</tr>
 										</thead>
 										<tbody >
@@ -116,7 +116,7 @@ $("#myModal").html(msg);
 												<td class="center"><?php echo $selectportfolioarray['client_name']; ?></td>
 												<td class="center">
 			 
-					<a class="btn btn-primary"  href="edit_portfolio.php?id=<?php echo $selectportfolioarray['portfolio_id']; ?>"><i class="icon-pencil icon-white"></i> Edit</a>
+					<a class="btn btn-primary"  href="edit_portfolio.php?id=<?php echo $selectportfolioarray['portfolio_id']; ?>"><i class="icon-pencil icon-white"></i> Редактировать</a>
 					<a href="#myModal" id="<?php echo $selectportfolioarray['portfolio_id']; ?>del" onclick="deleteportfolio(this.id)" data-toggle="modal"  class="btn btn-danger"><i class="icon-remove icon-white"></i>Delete</a>
 												
 												
@@ -142,7 +142,7 @@ $("#myModal").html(msg);
 				<div id="myModal" class="modal hide">
 											<div class="modal-header">
 												<button data-dismiss="modal" class="close" type="button">&times;</button>
-												<h3>Add portfolio</h3>
+												<h3>Добавить</h3>
 											</div>
 										
 										</div>

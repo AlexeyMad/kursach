@@ -36,15 +36,15 @@ $selectusers=mysql_fetch_array(mysql_query("select * from `users`"));
                         <!-- block -->
 						<div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">User</div>
+                                <div class="muted pull-left">Пользователь</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
                                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                                       <fieldset>
-                                        <legend>User</legend>
+                                        <legend>Пользователь</legend>
                                         <div class="control-group">
-                                          <label class="control-label" for="typeahead">Username </label>
+                                          <label class="control-label" for="typeahead">Имя пользователя </label>
                                           <div class="controls">
                        <input type="text" class="span6" name="username" value="<?php echo $selectusers['user_name']; ?>" id="typeahead" required>
                                             
@@ -54,7 +54,7 @@ $selectusers=mysql_fetch_array(mysql_query("select * from `users`"));
                                         
                                         
 										<div class="control-group">
-                                          <label class="control-label" for="typeahead">Password</label>
+                                          <label class="control-label" for="typeahead">Пароль</label>
                                           <div class="controls">
        <input type="password" class="span6" name="userpass" value="<?php echo $selectusers['user_pass']; ?>" id="typeahead" required>
                                             
@@ -65,7 +65,7 @@ $selectusers=mysql_fetch_array(mysql_query("select * from `users`"));
                                         
 										
                                         <div class="form-actions">
-          <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Save changes</button>
+          <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Сохранить</button>
                                           
                                         </div>
                                       </fieldset>

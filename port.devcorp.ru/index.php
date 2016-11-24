@@ -158,19 +158,19 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="name">Имя</label>
-                                <input class="form-control" type="text" name="name" placeholder="Name">
+                                <input class="form-control" type="text" name="name" placeholder="Имя">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="email">E-mail</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email Address">
+                                <input class="form-control" type="email" name="email" placeholder="E-mail">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="message">Сообщение(но я не отвечу. Пишите на devcorp.ru)</label>
-                                <textarea placeholder="Message" name="message" class="form-control" rows="5"></textarea>
+                                <textarea placeholder="Сообщение(но я не отвечу. Пишите на devcorp.ru)" name="message" class="form-control" rows="5"></textarea>
                             </div>
                         </div>
                         <br>
@@ -258,18 +258,18 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
 							<?php echo $selectportarray['portfolio_desc']; ?>
 							</p>
                             <ul class="list-inline item-details">
-                                <li>Client: <strong><?php echo $selectportarray['client_name']; ?></strong>
+                                <li>Клиент: <strong><?php echo $selectportarray['client_name']; ?></strong>
                                 </li>
-                                <li>Date: <strong><?php echo $selectportarray['date']; ?></strong>
+                                <li>Дата: <strong><?php echo $selectportarray['date']; ?></strong>
                                 </li>
 								<?php
 								$serviceid=$selectportarray['service_id'];
 								$selectservice=mysql_fetch_array(mysql_query("select * from `service` where `service_id`='$serviceid'"));
 								?>
-                                <li>Service: <strong><?php echo $selectservice['service_name']; ?></strong>
+                                <li>Ветка: <strong><?php echo $selectservice['service_name']; ?></strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Выйти</button>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ $selectsocial=mysql_fetch_array(mysql_query("select * from `social_links`"));
 <html>
     
     <head>
-        <title>Social links</title>
+        <title>СоцСети</title>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
@@ -41,13 +41,13 @@ $selectsocial=mysql_fetch_array(mysql_query("select * from `social_links`"));
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Social links</div>
+                                <div class="muted pull-left">СоцСети</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
                                     <form class="form-horizontal" action="#" method="post">
                                       <fieldset>
-                                        <legend>Social links</legend>
+                                        <legend>СоцСети</legend>
                                         
                                         
                                         
@@ -65,7 +65,7 @@ $selectsocial=mysql_fetch_array(mysql_query("select * from `social_links`"));
                                         </div>
 	
                                         <div class="form-actions">
-                                 <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Save changes</button>
+                                 <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Сохранить</button>
                                          
                                         </div>
                                       </fieldset>

@@ -10,7 +10,7 @@ date_default_timezone_set('Africa/Cairo');
 <html>
     
     <head>
-        <title>Add portfolio</title>
+        <title>Добавить работу</title>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
@@ -38,13 +38,13 @@ date_default_timezone_set('Africa/Cairo');
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Portfolio</div>
+                                <div class="muted pull-left">Портфолио</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
                                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                                       <fieldset>
-                                        <legend>Add portfolio</legend>
+                                        <legend>Добавить</legend>
                                         <div class="control-group">
                                           <label class="control-label" for="typeahead">Имя работы </label>
                                           <div class="controls">
@@ -77,7 +77,7 @@ date_default_timezone_set('Africa/Cairo');
                                           </div>
                                         </div>
 										<div class="control-group">
-                                          <label class="control-label" for="textarea2">Photo</label>
+                                          <label class="control-label" for="textarea2">Миниатюра </label>
                                           <div class="controls">
 										  
        <input class="input-file uniform_on" id="fileInput" type="file" name="file" >

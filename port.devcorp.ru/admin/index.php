@@ -6,7 +6,7 @@ header("Location: show_portfolio.php");
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Admin login</title>
+    <title>Вход</title>
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
@@ -93,13 +93,13 @@ setTimeout(function(){
     <div class="container">
 
       <form class="form-signin" action="#" method="post">
-        <h2 class="form-signin-heading">Admin Login</h2>
+        <h2 class="form-signin-heading">Вход</h2>
         <input type="text" class="input-block-level" name="username" placeholder="Email address">
         <input type="password" class="input-block-level" name="password" placeholder="Password">
         <label class="forgot-password-link">
           
         </label>
-        <button class="btn btn-large btn-primary" name="login" type="submit">Sign in</button>
+        <button class="btn btn-large btn-primary" name="login" type="submit">Войти</button>
       </form>
 
     </div> <!-- /container -->

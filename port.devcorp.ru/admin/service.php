@@ -70,11 +70,11 @@ $("#myModal").html(msg);
 
                     <div class="row-fluid">
                         <!-- block -->
-						<a href="#myModal" data-toggle="modal" class="btn btn-primary">Add Service</a>
+						<a href="#myModal" data-toggle="modal" class="btn btn-primary">Добавить ветку</a>
                         <div class="block">
 						
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Services</div>
+                                <div class="muted pull-left">Ветки</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -82,10 +82,10 @@ $("#myModal").html(msg);
 						              <thead>
 						                <tr>
 
-						                 <th >Name</th>
+						                 <th >Имя</th>
 										
 
-										<th class="center">actions</th>
+										<th class="center">Действия</th>
 						                 
 						                </tr>
 						              </thead>
@@ -101,8 +101,8 @@ while($selectarrayservice=mysql_fetch_array($selectservice))
 						                  <td><?php echo $selectarrayservice['service_name']; ?></td>
 						                  
 						                  <td>
-				<a class="btn btn-primary"  href="#myModal" id="<?php echo $selectarrayservice['service_id']; ?>" onclick="showdetails(this.id)" data-toggle="modal" ><i class="icon-pencil icon-white"></i> Edit</a>				
-				<a class="btn btn-danger" href="#myModal" id="<?php echo $selectarrayservice['service_id']; ?>del" onclick="deleteservice(this.id)" data-toggle="modal" ><i class="icon-remove icon-white"></i> Delete</a>
+				<a class="btn btn-primary"  href="#myModal" id="<?php echo $selectarrayservice['service_id']; ?>" onclick="showdetails(this.id)" data-toggle="modal" ><i class="icon-pencil icon-white"></i> Редактировать</a>				
+				<a class="btn btn-danger" href="#myModal" id="<?php echo $selectarrayservice['service_id']; ?>del" onclick="deleteservice(this.id)" data-toggle="modal" ><i class="icon-remove icon-white"></i> Удалить</a>
 										  </td>
 						                </tr>
 										<?php
@@ -133,7 +133,7 @@ while($selectarrayservice=mysql_fetch_array($selectservice))
 			<div id="myModal" class="modal hide">
 											<div class="modal-header">
 												<button data-dismiss="modal" class="close" type="button">&times;</button>
-												<h3>Add service</h3>
+												<h3>Добавить ветку</h3>
 											</div>
 											<div class="modal-body">
 												<form action="#" method="post" enctype="multipart/form-data" id="form1">
@@ -152,7 +152,7 @@ while($selectarrayservice=mysql_fetch_array($selectservice))
 									
                                     <div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
-				<button  type="submit" name="submit" class=" btn-large btn-block btn-primary">Save</button>
+				<button  type="submit" name="submit" class=" btn-large btn-block btn-primary">Сохранить</button>
                                             
                                             
 

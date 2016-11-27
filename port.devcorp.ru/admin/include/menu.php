@@ -1,3 +1,4 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <div class="span3" id="sidebar">
                     <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
 					<li>
@@ -10,7 +11,7 @@
                             <a href="about.php"><i class="icon-chevron-right"></i>Про меня</a>
                         </li>
                         <li>
-                            <a href="social_links.php"><i class="icon-chevron-right"></i>Соц. сети</a>
+                            <a href="social_links.php"><i class="icon-chevron-right"></i>ВК</a>
                         </li>
                         <li>
                             <a href="service.php"><i class="icon-chevron-right"></i>Ветки</a>

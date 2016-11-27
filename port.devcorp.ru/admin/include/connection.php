@@ -8,3 +8,5 @@ mysql_query("set names 'utf8'");
 
 
 ?>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

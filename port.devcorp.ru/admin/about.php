@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <?php include("include/connection.php");
 if($_SESSION['name']== null){
 header("Location: index.php");
@@ -11,6 +12,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
 <html>
     
     <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Про меня</title>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">

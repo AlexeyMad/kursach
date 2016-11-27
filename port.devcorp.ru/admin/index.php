@@ -6,6 +6,7 @@ header("Location: show_portfolio.php");
 <!DOCTYPE html>
 <html>
   <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Вход</title>
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">

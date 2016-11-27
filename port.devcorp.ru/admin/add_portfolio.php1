@@ -92,7 +92,7 @@ date_default_timezone_set('Africa/Cairo');
                                         </div>
 										
                                         <div class="form-actions">
-          <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Сохранить</button>
+          <button type="submit" style="width:180px;left:50px;position:relative;" class="btn btn-primary" name="submit">Save changes</button>
                                           
                                         </div>
                                       </fieldset>

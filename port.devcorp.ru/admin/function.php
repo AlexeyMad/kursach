@@ -1,6 +1,8 @@
 <?php
 
-
+/**
+ * @link: http://www.Awcore.com/dev
+ */
  
    function pagination($query, $per_page = 10,$page = 1, $url = '?'){        
     	$query = "SELECT COUNT(*) as `num` FROM {$query}";

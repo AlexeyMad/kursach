@@ -5,7 +5,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Твоё портфолио, ага</a>
+                    <a class="brand" href="http://port.devcorp.ru/">Твоё портфолио, ага</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right">
                             <li class="dropdown">

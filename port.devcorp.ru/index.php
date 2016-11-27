@@ -253,7 +253,7 @@ $selectabout=mysql_fetch_array(mysql_query("select * from `about`"));
                         <div class="modal-body">
                             <h2><?php echo $selectportarray['portfolio_title']; ?></h2>
                             <hr class="star-primary">
-                           
+                             <img src="admin/imagesportfolio/<?php echo $selectportarray['portfoilo_image']; ?>" class="img-responsive img-centered" alt="">
                             <p>
 							<?php echo $selectportarray['portfolio_desc']; ?>
 							</p>
